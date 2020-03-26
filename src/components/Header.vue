@@ -7,6 +7,10 @@
              <li><router-link to="/add" exact>Add Item</router-link></li>
              <li><router-link to="/list" exact>List</router-link></li>
              <li><router-link to="/axios" exact>Axios</router-link></li>
+             <li><router-link to="/trump" exact>COVID in US</router-link></li>
+             <li><router-link to="/transp" exact>Transportation</router-link></li>
+
+
           </ul>
         </nav>
   </div>

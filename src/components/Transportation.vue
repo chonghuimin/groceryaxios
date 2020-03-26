@@ -1,25 +1,39 @@
 <template>
     <div id="main">
+
         <div id="chart">
-            <axiosExample></axiosExample>
-        
-        </div>
-         <div id="chart">
-            <PSIIndex></PSIIndex>
+            <Transportation></Transportation>
         
         </div>
 
+        <div id="chart">
+            <Bus></Bus>
+        
+        </div>
+
+        <div id="chart">
+            <Taxi></Taxi>
+        
+        </div>
+
+        <div id="chart">
+            <LRT></LRT>
+        
+        </div>
         
     </div>
 </template>
 
 <script>
-import axiosExample from '../axiosExample.js'
-import PSIIndex from '../PSIIndex.js'
+
+import Transportation from '../Transportation.js'
+import Bus from '../Bus.js'
+import Taxi from '../Taxi.js'
+import LRT from '../LRT.js'
 
 export default {
     components:{
-        axiosExample,PSIIndex
+        Transportation, Bus, Taxi, LRT
     }
     
 }

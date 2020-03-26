@@ -1,25 +1,21 @@
 <template>
     <div id="main">
-        <div id="chart">
-            <axiosExample></axiosExample>
-        
-        </div>
-         <div id="chart">
-            <PSIIndex></PSIIndex>
-        
-        </div>
 
+        <div id="chart">
+            <WeGonnaDie></WeGonnaDie>
+        
+        </div>
         
     </div>
 </template>
 
 <script>
-import axiosExample from '../axiosExample.js'
-import PSIIndex from '../PSIIndex.js'
+
+import WeGonnaDie from '../WeGonnaDie.js'
 
 export default {
     components:{
-        axiosExample,PSIIndex
+        WeGonnaDie
     }
     
 }
